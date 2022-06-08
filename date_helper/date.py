@@ -2,6 +2,7 @@ from datetime import datetime, timedelta
 from pytz import timezone
 
 
+# TODO: 항상 UTC를 기준으로 변경하도록 변경
 def get_kst_datetime():
     return datetime.now(timezone("Asia/Seoul"))
 
